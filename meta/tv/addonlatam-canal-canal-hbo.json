@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "addonlatam-canal-canal-hbo",
+    "type": "tv",
+    "name": "HBO",
+    "poster": "https://raw.githubusercontent.com/millanf606/prueba/refs/heads/main/logos/canal-hbo.png?v=90264fa6",
+    "logo": "https://raw.githubusercontent.com/millanf606/prueba/refs/heads/main/logos/canal-hbo.png?v=90264fa6",
+    "background": "https://raw.githubusercontent.com/Droydr13/Addon-Latam-TV/main/fondo/fondo-canales.png?v=90264fa6",
+    "posterShape": "landscape",
+    "genres": [
+      "Premiun"
+    ],
+    "description": "Canal HBO",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "HBOLWHD.mx (m3u4u)"
+  }
+}
