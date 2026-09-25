@@ -1,0 +1,9 @@
+{
+  "name": "addon-latam-canales-build",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Script Addon Latam - Canales",
+  "dependencies": {
+    "jimp": "^0.22.12"
+  }
+}
