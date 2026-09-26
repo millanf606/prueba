@@ -3,7 +3,7 @@ name: Actualizar Programa EPG
 on:
   schedule:
     - cron: '*/15 * * * *'
-  workflow_dispatch:
+  # <--- workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,7 +18,7 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v4.2.0
         with:
-          node-version: '24'
+          node-version: '24' # <--- Cambiado de 20 a 22 o 24
 
       - name: Instalar dependencias
         run: npm install
