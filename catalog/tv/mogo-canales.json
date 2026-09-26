@@ -11,11 +11,11 @@
       "genres": [
         "Premiun"
       ],
-      "description": "EN VIVO AHORA: Linternas\nJohn intenta seguir adelante con sus negocios, pero un misterio inesperado lo obliga a regresar a Rushville.\n\nCanal HBO",
+      "description": "EN VIVO AHORA: El conjuro 4: Los ultimos ritos\nEn 1986, los investigadores paranormales Ed y Lorraine Warren viajan a Pensilvania para vencer a un demonio de la casa de una familia.\n\nCanal HBO",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "HBOLWHD.mx (m3u4u)",
-      "currentProgram": "Linternas",
-      "currentProgramDesc": "John intenta seguir adelante con sus negocios, pero un misterio inesperado lo obliga a regresar a Rushville.",
+      "currentProgram": "El conjuro 4: Los ultimos ritos",
+      "currentProgramDesc": "En 1986, los investigadores paranormales Ed y Lorraine Warren viajan a Pensilvania para vencer a un demonio de la casa de una familia.",
       "descriptionBase": "Canal HBO"
     },
     {
@@ -90,7 +90,7 @@
       "currentProgramDesc": "Ramón hará hasta lo imposible para vengarse de El Chapo. Don Sol se encuentra con Gabriela para cuestionarla sobre el asesinato del coronel Blanco.",
       "descriptionBase": "Canal A&E"
     },
-            {
+    {
       "id": "mogo-canal-canal-warner-sony",
       "type": "tv",
       "name": "Sony",
@@ -101,14 +101,14 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "EN VIVO AHORA: Al mejor postor\nUn excéntrico subastador de arte se obsesiona con una heredera.\n\nCanal Star Channel",
+      "description": "EN VIVO AHORA: La chica salvaje\nUna mujer solitaria que vive en los inhóspitos pantanos de Carolina del Norte se convierte en la principal sospechosa del asesinato de un hombre cuyo cadáver apareció en la zona. Sin embargo, la investigación revela que nada es lo que aparenta ser.\n\nCanal Sony",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "SETLC.co (m3u4u)",
-      "currentProgram": "Al mejor postor",
-      "currentProgramDesc": "Un excéntrico subastador de arte se obsesiona con una heredera.",
+      "currentProgram": "La chica salvaje",
+      "currentProgramDesc": "Una mujer solitaria que vive en los inhóspitos pantanos de Carolina del Norte se convierte en la principal sospechosa del asesinato de un hombre cuyo cadáver apareció en la zona. Sin embargo, la investigación revela que nada es lo que aparenta ser.",
       "descriptionBase": "Canal Sony"
     },
-        {
+    {
       "id": "mogo-canal-canal-sony-central",
       "type": "tv",
       "name": "Sony Central",
@@ -119,14 +119,14 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "EN VIVO AHORA: Al mejor postor\nUn excéntrico subastador de arte se obsesiona con una heredera.\n\nCanal Star Channel",
+      "description": "EN VIVO AHORA: Rápida y mortal\nUna bella mujer participa en una competencia de duelo mortal para vengarse del delincuente del pueblo, quien asesinó a su padre.\n\nCanal Sony Central",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "SETPLEH.co (m3u4u)",
-      "currentProgram": "Al mejor postor",
-      "currentProgramDesc": "Un excéntrico subastador de arte se obsesiona con una heredera.",
+      "currentProgram": "Rápida y mortal",
+      "currentProgramDesc": "Una bella mujer participa en una competencia de duelo mortal para vengarse del delincuente del pueblo, quien asesinó a su padre.",
       "descriptionBase": "Canal Sony Central"
     },
-            {
+    {
       "id": "ogo-canal-canal-axn",
       "type": "tv",
       "name": "AXM",
@@ -137,14 +137,14 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "",
+      "description": "EN VIVO AHORA: NCIS: Criminología naval\nEl pasado de la agente Knight resurge cuando su exnovio, un agente del Servicio Nacional de Parques, se une al NCIS para investigar un asesinato en un camping.\n\nCanal AXN",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "AXNARGH.ar (m3u4u)",
-      "currentProgram": "",
-      "currentProgramDesc": "",
+      "currentProgram": "NCIS: Criminología naval",
+      "currentProgramDesc": "El pasado de la agente Knight resurge cuando su exnovio, un agente del Servicio Nacional de Parques, se une al NCIS para investigar un asesinato en un camping.",
       "descriptionBase": "Canal AXN"
     },
-        {
+    {
       "id": "mogo-canal-canal-amc",
       "type": "tv",
       "name": "AMC",
@@ -155,14 +155,14 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "",
+      "description": "EN VIVO AHORA: Bad boys para siempre\nLos veteranos agentes Mike Lowery y Marcus Burnett vuelven a colaborar para detener a Armando Armas, el violento líder de un cartel de la droga afincado en Miami. En esta ocasión, los apoya el equipo AMMO, un grupo de élite del Departamento de Policía de Miami.\n\nCanal AMC",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "AMCANSD.mx (m3u4u)",
-      "currentProgram": "",
-      "currentProgramDesc": "",
+      "currentProgram": "Bad boys para siempre",
+      "currentProgramDesc": "Los veteranos agentes Mike Lowery y Marcus Burnett vuelven a colaborar para detener a Armando Armas, el violento líder de un cartel de la droga afincado en Miami. En esta ocasión, los apoya el equipo AMMO, un grupo de élite del Departamento de Policía de Miami.",
       "descriptionBase": "Canal AMC"
     },
-            {
+    {
       "id": "ogo-canal-canal-fx",
       "type": "tv",
       "name": "FX",
@@ -173,11 +173,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "",
+      "description": "EN VIVO AHORA: El transportador\nEl ex militar Frank Martin vive lo que parece ser una vida tranquila, prestando sus servicios como transportador, pero cuando rompe las tres reglas de conducta por las que se rige, la violencia vuelve a adueñarse de su vida.\n\nCanal FX",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "FXLCHD.co (m3u4u)",
-      "currentProgram": "",
-      "currentProgramDesc": "",
+      "currentProgram": "El transportador",
+      "currentProgramDesc": "El ex militar Frank Martin vive lo que parece ser una vida tranquila, prestando sus servicios como transportador, pero cuando rompe las tres reglas de conducta por las que se rige, la violencia vuelve a adueñarse de su vida.",
       "descriptionBase": "Canal FX"
     }
   ]

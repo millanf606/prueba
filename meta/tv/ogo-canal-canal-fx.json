@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "ogo-canal-canal-fx",
+    "type": "tv",
+    "name": "FX",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/fx_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/fx_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Entretenimiento"
+    ],
+    "description": "EN VIVO AHORA: El transportador\nEl ex militar Frank Martin vive lo que parece ser una vida tranquila, prestando sus servicios como transportador, pero cuando rompe las tres reglas de conducta por las que se rige, la violencia vuelve a adueñarse de su vida.\n\nCanal FX"
+  }
+}

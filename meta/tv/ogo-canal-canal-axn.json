@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "ogo-canal-canal-axn",
+    "type": "tv",
+    "name": "AXM",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/axn_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/axn_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Entretenimiento"
+    ],
+    "description": "EN VIVO AHORA: NCIS: Criminología naval\nEl pasado de la agente Knight resurge cuando su exnovio, un agente del Servicio Nacional de Parques, se une al NCIS para investigar un asesinato en un camping.\n\nCanal AXN"
+  }
+}

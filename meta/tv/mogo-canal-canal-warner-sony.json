@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "mogo-canal-canal-warner-sony",
+    "type": "tv",
+    "name": "Sony",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/sony_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/sony_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Entretenimiento"
+    ],
+    "description": "EN VIVO AHORA: La chica salvaje\nUna mujer solitaria que vive en los inhóspitos pantanos de Carolina del Norte se convierte en la principal sospechosa del asesinato de un hombre cuyo cadáver apareció en la zona. Sin embargo, la investigación revela que nada es lo que aparenta ser.\n\nCanal Sony"
+  }
+}
