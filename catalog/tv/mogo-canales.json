@@ -36,7 +36,7 @@
       "currentProgramDesc": "Un excéntrico subastador de arte se obsesiona con una heredera.",
       "descriptionBase": "Canal Star Channel"
     },
-        {
+    {
       "id": "mogo-canal-canal-warner",
       "type": "tv",
       "name": "Warner Channel",
@@ -53,6 +53,42 @@
       "currentProgram": "Al mejor postor",
       "currentProgramDesc": "Un excéntrico subastador de arte se obsesiona con una heredera.",
       "descriptionBase": "Canal Warner Channel"
+    },
+            {
+      "id": "mogo-canal-canal-warner-central",
+      "type": "tv",
+      "name": "Warner Channel",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/warner_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/warner-channel_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "EN VIVO AHORA: Al mejor postor\nUn excéntrico subastador de arte se obsesiona con una heredera.\n\nCanal Star Channel",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "WOLEARH.ar (m3u4u)",
+      "currentProgram": "Al mejor postor",
+      "currentProgramDesc": "Un excéntrico subastador de arte se obsesiona con una heredera.",
+      "descriptionBase": "Canal Warner Channel Central"
+    },
+      {
+      "id": "mogo-canal-canal-ae",
+      "type": "tv",
+      "name": "Warner Channel",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/aemundo_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/a-e-mundo_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "EN VIVO AHORA: Al mejor postor\nUn excéntrico subastador de arte se obsesiona con una heredera.\n\nCanal Star Channel",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "AENORH.ar (m3u4u)",
+      "currentProgram": "Al mejor postor",
+      "currentProgramDesc": "Un excéntrico subastador de arte se obsesiona con una heredera.",
+      "descriptionBase": "Canal A&E"
     }
   ]
 }
