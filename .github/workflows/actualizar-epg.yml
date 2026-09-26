@@ -3,7 +3,7 @@ name: Actualizar Programa EPG
 on:
   schedule:
     - cron: '14,44 * * * *'
-   # <---  workflow_dispatch:
+  workflow_dispatch:
 
 permissions:
   contents: write
