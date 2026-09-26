@@ -407,7 +407,7 @@ async function main() {
       {
         type: 'tv',
         id: 'addonlatam-canales',
-        name: 'Addon Latam - Canales'
+        name: 'MoGo - Canales'
       }
     ],
     behaviorHints: {
