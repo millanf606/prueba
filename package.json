@@ -1,9 +1,12 @@
 {
-  "name": "addon-latam-canales-build",
+  "name": "mogo-canales-build",
   "private": true,
   "version": "1.0.0",
-  "description": "Script Addon Latam - Canales",
+  "description": "Script MoGo - Canales",
+  "main": "actualizar_epg.js",
   "dependencies": {
     "jimp": "^0.22.12"
+    "axios": "^1.6.0",
+    "xml2js": "^0.6.2"
   }
 }
