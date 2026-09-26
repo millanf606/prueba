@@ -89,6 +89,42 @@
       "currentProgram": "Al mejor postor",
       "currentProgramDesc": "Un excéntrico subastador de arte se obsesiona con una heredera.",
       "descriptionBase": "Canal A&E"
+    },
+            {
+      "id": "mogo-canal-canal-warner-sony",
+      "type": "tv",
+      "name": "Warner Channel",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/sony_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/sony_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "EN VIVO AHORA: Al mejor postor\nUn excéntrico subastador de arte se obsesiona con una heredera.\n\nCanal Star Channel",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "SETLC.co (m3u4u)",
+      "currentProgram": "Al mejor postor",
+      "currentProgramDesc": "Un excéntrico subastador de arte se obsesiona con una heredera.",
+      "descriptionBase": "Canal Sony"
+    },
+        {
+      "id": "mogo-canal-canal-sony-central",
+      "type": "tv",
+      "name": "Warner Channel",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/sony_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/sony_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "EN VIVO AHORA: Al mejor postor\nUn excéntrico subastador de arte se obsesiona con una heredera.\n\nCanal Star Channel",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "SETPLEH.co (m3u4u)",
+      "currentProgram": "Al mejor postor",
+      "currentProgramDesc": "Un excéntrico subastador de arte se obsesiona con una heredera.",
+      "descriptionBase": "Canal Sony Central"
     }
   ]
 }
