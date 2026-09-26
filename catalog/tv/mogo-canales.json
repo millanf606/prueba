@@ -1,6 +1,6 @@
 {
   "metas": [
-       {
+    {
       "id": "mogo-canal-canal-star",
       "type": "tv",
       "name": "Star Channel",
@@ -11,11 +11,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "EN VIVO AHORA: Jugada perfecta\nUna fisioterapeuta se enamora de su paciente, un jugador profesional de baloncesto, pero él está interesado en su mejor amiga.\n\nCanal Star Channel",
+      "description": "EN VIVO AHORA: Vacation Friends 2\nMarcus consigue un viaje con todos los gastos pagados, y él y su esposa, Emily, invitan a sus mejores amigos, Ron y Kyla. El padre de Kyla sale de San Quintín y aparece en el resort, lo que causa que todo se descontrole.\n\nCanal Star Channel",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "STRANHD.ar (m3u4u)",
-      "currentProgram": "Jugada perfecta",
-      "currentProgramDesc": "Una fisioterapeuta se enamora de su paciente, un jugador profesional de baloncesto, pero él está interesado en su mejor amiga.",
+      "currentProgram": "Vacation Friends 2",
+      "currentProgramDesc": "Marcus consigue un viaje con todos los gastos pagados, y él y su esposa, Emily, invitan a sus mejores amigos, Ron y Kyla. El padre de Kyla sale de San Quintín y aparece en el resort, lo que causa que todo se descontrole.",
       "descriptionBase": "Canal Star Channel"
     },
     {
@@ -29,11 +29,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "EN VIVO AHORA: Godzilla II: El rey de los monstruos\nLas aventuras de unos criptozoólogos de una agencia mientras tratan de enfrentarse a unos monstruos entre los que se encuentra el propio Godzilla. Entre todos intentarán frenar a estas criaturas que harán todo lo posible por sobrevivir.\n\nCanal Warner Channel",
+      "description": "EN VIVO AHORA: Godzilla vs. Kong\nGodzilla y Kong, dos de las fuerzas más poderosas de un planeta habitado por aterradoras criaturas, se enfrentan en un espectacular combate que sacude los cimientos de la humanidad.\n\nCanal Warner Channel",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "WARCOL.co (m3u4u)",
-      "currentProgram": "Godzilla II: El rey de los monstruos",
-      "currentProgramDesc": "Las aventuras de unos criptozoólogos de una agencia mientras tratan de enfrentarse a unos monstruos entre los que se encuentra el propio Godzilla. Entre todos intentarán frenar a estas criaturas que harán todo lo posible por sobrevivir.",
+      "currentProgram": "Godzilla vs. Kong",
+      "currentProgramDesc": "Godzilla y Kong, dos de las fuerzas más poderosas de un planeta habitado por aterradoras criaturas, se enfrentan en un espectacular combate que sacude los cimientos de la humanidad.",
       "descriptionBase": "Canal Warner Channel"
     },
     {
@@ -163,42 +163,42 @@
       "descriptionBase": "Canal FX"
     },
     {
-  "id": "mogo-canal-universal-tv",
-  "type": "tv",
-  "name": "Universal TV",
-  "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/uni_stm.png",
-  "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/universal-channel_m.png",
-  "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
-  "posterShape": "poster",
-  "genres": [
-    "Entretenimiento"
-  ],
-  "description": "",
-  "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-  "tvgId": "UNTVCOH.co (m3u4u)",
-  "currentProgram": "",
-  "currentProgramDesc": "",
-  "descriptionBase": "Canal Universal TV"
-     }, 
+      "id": "mogo-canal-universal-tv",
+      "type": "tv",
+      "name": "Universal TV",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/uni_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/universal-channel_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "EN VIVO AHORA: Chicago P.D.\nLa Unidad de Inteligencia del Departamento de Policía de Chicago, liderada por el sargento Hank Voight, se ocupa de investigar los delitos más graves. En la búsqueda de la verdad, Voight deberá adaptarse a un sistema penal en constante cambio.\n\nCanal Universal TV",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "UNTVCOH.co (m3u4u)",
+      "currentProgram": "Chicago P.D.",
+      "currentProgramDesc": "La Unidad de Inteligencia del Departamento de Policía de Chicago, liderada por el sargento Hank Voight, se ocupa de investigar los delitos más graves. En la búsqueda de la verdad, Voight deberá adaptarse a un sistema penal en constante cambio.",
+      "descriptionBase": "Canal Universal TV"
+    },
     {
-  "id": "mogo-canal-pasiones",
-  "type": "tv",
-  "name": "Pasiones",
-  "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/pasi_stm.png",
-  "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/pasiones_m.png",
-  "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
-  "posterShape": "poster",
-  "genres": [
-    "Entretenimiento"
-  ],
-  "description": "",
-  "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-  "tvgId": "PASNLA.co (m3u4u)",
-  "currentProgram": "",
-  "currentProgramDesc": "",
-  "descriptionBase": "Canal Pasiones"
-},
-     {
+      "id": "mogo-canal-pasiones",
+      "type": "tv",
+      "name": "Pasiones",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/pasi_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/pasiones_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "EN VIVO AHORA: Tres hermanas\nUna historia de lazos fraternales. Un grupo de jóvenes pasan a la adultez mediante un camino lleno de problemas y situaciones que las hacen crecer.\n\nCanal Pasiones",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "PASNLA.co (m3u4u)",
+      "currentProgram": "Tres hermanas",
+      "currentProgramDesc": "Una historia de lazos fraternales. Un grupo de jóvenes pasan a la adultez mediante un camino lleno de problemas y situaciones que las hacen crecer.",
+      "descriptionBase": "Canal Pasiones"
+    },
+    {
       "id": "mogo-canal-canal-hbo",
       "type": "tv",
       "name": "HBO",
