@@ -8,9 +8,7 @@
       "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hbo_m.png",
       "background": "https://raw.githubusercontent.com/Droydr13/Addon-Latam-TV/main/fondo/fondo-canales.png?v=90264fa6",
       "posterShape": "poster",
-      "genres": [
-        "Premiun"
-      ],
+      "genres": ["Premiun"],
       "description": "🔴 EN VIVO AHORA: El justiciero\n\nCanal HBO",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "HBOLWHD.mx (m3u4u)",
@@ -24,9 +22,7 @@
       "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/star_m.png",
       "background": "https://raw.githubusercontent.com/Droydr13/Addon-Latam-TV/main/fondo/fondo-canales.png?v=90264fa6",
       "posterShape": "poster",
-      "genres": [
-        "General"
-      ],
+      "genres": ["General"],
       "description": "🔴 EN VIVO AHORA: Scrubs\n\nCanal Star Channel",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "STRANHD.ar (m3u4u)",
