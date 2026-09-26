@@ -5,6 +5,10 @@ on:
     - cron: '*/15 * * * *'
   workflow_dispatch:
 
+# Permisos explícitos para que el bot pueda hacer push
+permissions:
+  contents: write
+
 jobs:
   update-epg:
     runs-on: ubuntu-latest
