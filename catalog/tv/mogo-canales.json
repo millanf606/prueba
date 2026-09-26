@@ -1,24 +1,6 @@
 {
   "metas": [
-    {
-      "id": "mogo-canal-canal-hbo",
-      "type": "tv",
-      "name": "HBO",
-      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hbo-stm.png",
-      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hbo_m.png",
-      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
-      "posterShape": "poster",
-      "genres": [
-        "Premiun"
-      ],
-      "description": "EN VIVO AHORA: El conjuro 4: Los ultimos ritos\nEn 1986, los investigadores paranormales Ed y Lorraine Warren viajan a Pensilvania para vencer a un demonio de la casa de una familia.\n\nCanal HBO",
-      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-      "tvgId": "HBOLWHD.mx (m3u4u)",
-      "currentProgram": "El conjuro 4: Los ultimos ritos",
-      "currentProgramDesc": "En 1986, los investigadores paranormales Ed y Lorraine Warren viajan a Pensilvania para vencer a un demonio de la casa de una familia.",
-      "descriptionBase": "Canal HBO"
-    },
-    {
+       {
       "id": "mogo-canal-canal-star",
       "type": "tv",
       "name": "Star Channel",
@@ -179,6 +161,42 @@
       "currentProgram": "Alien: Covenant",
       "currentProgramDesc": "Durante un viaje interplanetario, la tripulación de la nave Covenant descubre un mundo nuevo y piensan que se trata de un lugar paradisíaco. Cuando llegan, se dan cuenta de que es un territorio aterrador, repleto de criaturas brutales. Mientras lo exploran se percatan de que no son los primeros en aterrizar en ese planeta.",
       "descriptionBase": "Canal FX"
+    },
+    {
+  "id": "mogo-canal-universal-tv",
+  "type": "tv",
+  "name": "Universal TV",
+  "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/uni_stm.png",
+  "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/universal-channel_m.png",
+  "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+  "posterShape": "poster",
+  "genres": [
+    "Entretenimiento"
+  ],
+  "description": "",
+  "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+  "tvgId": "UNTVCOH.co (m3u4u)",
+  "currentProgram": "",
+  "currentProgramDesc": "",
+  "descriptionBase": "Canal Universal TV"
+     }, 
+     {
+      "id": "mogo-canal-canal-hbo",
+      "type": "tv",
+      "name": "HBO",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hbo-stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hbo_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Premiun"
+      ],
+      "description": "EN VIVO AHORA: El conjuro 4: Los ultimos ritos\nEn 1986, los investigadores paranormales Ed y Lorraine Warren viajan a Pensilvania para vencer a un demonio de la casa de una familia.\n\nCanal HBO",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "HBOLWHD.mx (m3u4u)",
+      "currentProgram": "El conjuro 4: Los ultimos ritos",
+      "currentProgramDesc": "En 1986, los investigadores paranormales Ed y Lorraine Warren viajan a Pensilvania para vencer a un demonio de la casa de una familia.",
+      "descriptionBase": "Canal HBO"
     }
   ]
 }
