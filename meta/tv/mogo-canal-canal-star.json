@@ -1,0 +1,12 @@
+{
+  "meta": {
+      "id": "mogo-canal-canal-star",
+      "type": "tv",
+      "name": "Star Channel",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/star_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/star-channel_m.png",
+      "background": "https://raw.githubusercontent.com/Droydr13/Addon-Latam-TV/main/fondo/fondo-canales.png?v=90264fa6",
+      "posterShape": "poster",
+      "genres": ["Entretenimiento"]
+  }
+}
