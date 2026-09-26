@@ -2,9 +2,8 @@ name: Actualizar Programa EPG
 
 on:
   schedule:
-    # Se ejecuta cada 30 minutos
     - cron: '*/30 * * * *'
-  workflow_dispatch: # Permite ejecutarlo manualmente desde GitHub
+  workflow_dispatch:
 
 jobs:
   update-epg:
@@ -28,5 +27,5 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add -u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Programa EPG actualizado" && git push)
+          git add .
+          git diff --staged --quiet || (git commit -m "Auto-update: Programa EPG actualizado" && git push)
