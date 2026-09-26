@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "mogo-canal-canal-ae",
+    "type": "tv",
+    "name": "Warner Channel",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/aemundo_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/a-e-mundo_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Entretenimiento"
+    ],
+    "description": "EN VIVO AHORA: El Chapo\nRamón hará hasta lo imposible para vengarse de El Chapo. Don Sol se encuentra con Gabriela para cuestionarla sobre el asesinato del coronel Blanco.\n\nCanal A&E"
+  }
+}

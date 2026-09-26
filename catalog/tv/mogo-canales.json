@@ -29,11 +29,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "EN VIVO AHORA: Al mejor postor\nUn excéntrico subastador de arte se obsesiona con una heredera.\n\nCanal Star Channel",
+      "description": "EN VIVO AHORA: Jugada perfecta\nUna fisioterapeuta se enamora de su paciente, un jugador profesional de baloncesto, pero él está interesado en su mejor amiga.\n\nCanal Star Channel",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "STRANHD.ar (m3u4u)",
-      "currentProgram": "Al mejor postor",
-      "currentProgramDesc": "Un excéntrico subastador de arte se obsesiona con una heredera.",
+      "currentProgram": "Jugada perfecta",
+      "currentProgramDesc": "Una fisioterapeuta se enamora de su paciente, un jugador profesional de baloncesto, pero él está interesado en su mejor amiga.",
       "descriptionBase": "Canal Star Channel"
     },
     {
@@ -47,14 +47,14 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "EN VIVO AHORA: Al mejor postor\nUn excéntrico subastador de arte se obsesiona con una heredera.\n\nCanal Star Channel",
+      "description": "EN VIVO AHORA: Godzilla II: El rey de los monstruos\nLas aventuras de unos criptozoólogos de una agencia mientras tratan de enfrentarse a unos monstruos entre los que se encuentra el propio Godzilla. Entre todos intentarán frenar a estas criaturas que harán todo lo posible por sobrevivir.\n\nCanal Warner Channel",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "WARCOL.co (m3u4u)",
-      "currentProgram": "Al mejor postor",
-      "currentProgramDesc": "Un excéntrico subastador de arte se obsesiona con una heredera.",
+      "currentProgram": "Godzilla II: El rey de los monstruos",
+      "currentProgramDesc": "Las aventuras de unos criptozoólogos de una agencia mientras tratan de enfrentarse a unos monstruos entre los que se encuentra el propio Godzilla. Entre todos intentarán frenar a estas criaturas que harán todo lo posible por sobrevivir.",
       "descriptionBase": "Canal Warner Channel"
     },
-            {
+    {
       "id": "mogo-canal-canal-warner-central",
       "type": "tv",
       "name": "Warner Channel",
@@ -65,14 +65,14 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "EN VIVO AHORA: Al mejor postor\nUn excéntrico subastador de arte se obsesiona con una heredera.\n\nCanal Star Channel",
+      "description": "EN VIVO AHORA: Godzilla vs. Kong\nGodzilla y Kong, dos de las fuerzas más poderosas de un planeta habitado por aterradoras criaturas, se enfrentan en un espectacular combate que sacude los cimientos de la humanidad.\n\nCanal Warner Channel Central",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "WOLEARH.ar (m3u4u)",
-      "currentProgram": "Al mejor postor",
-      "currentProgramDesc": "Un excéntrico subastador de arte se obsesiona con una heredera.",
+      "currentProgram": "Godzilla vs. Kong",
+      "currentProgramDesc": "Godzilla y Kong, dos de las fuerzas más poderosas de un planeta habitado por aterradoras criaturas, se enfrentan en un espectacular combate que sacude los cimientos de la humanidad.",
       "descriptionBase": "Canal Warner Channel Central"
     },
-      {
+    {
       "id": "mogo-canal-canal-ae",
       "type": "tv",
       "name": "Warner Channel",
@@ -83,11 +83,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "EN VIVO AHORA: Al mejor postor\nUn excéntrico subastador de arte se obsesiona con una heredera.\n\nCanal Star Channel",
+      "description": "EN VIVO AHORA: El Chapo\nRamón hará hasta lo imposible para vengarse de El Chapo. Don Sol se encuentra con Gabriela para cuestionarla sobre el asesinato del coronel Blanco.\n\nCanal A&E",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "AENORH.ar (m3u4u)",
-      "currentProgram": "Al mejor postor",
-      "currentProgramDesc": "Un excéntrico subastador de arte se obsesiona con una heredera.",
+      "currentProgram": "El Chapo",
+      "currentProgramDesc": "Ramón hará hasta lo imposible para vengarse de El Chapo. Don Sol se encuentra con Gabriela para cuestionarla sobre el asesinato del coronel Blanco.",
       "descriptionBase": "Canal A&E"
     },
             {
