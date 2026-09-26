@@ -1,71 +1,64 @@
 const fs = require('fs');
 const axios = require('axios');
 const xml2js = require('xml2js');
+const zlib = require('zlib');
 
-// Nombre de tu archivo JSON en el repositorio
-const RUTA_JSON = './meta/tv/mogo-canal-canal-hbo.json';
+// Ruta de tu archivo JSON en el repositorio
+const RUTA_JSON = 'meta/tv/mogo-canal-canal-hbo.json';
 
-async function actualizarJSON() {
+// Caché en memoria para evitar descargar la misma EPG varias veces
+const epgCache = {};
+
+async function descargarYParsearEPG(epgUrl) {
+  if (epgCache[epgUrl]) {
+    return epgCache[epgUrl];
+  }
+
   try {
-    // 1. Leer tu JSON actual
-    const dataRaw = fs.readFileSync(RUTA_JSON, 'utf8');
-    const json = JSON.parse(dataRaw);
-    const meta = json.meta;
+    console.log(`Descargando EPG desde: ${epgUrl}`);
 
-    if (!meta.epgUrl || !meta.tvgId) {
-      console.log('No se encontró epgUrl o tvgId en el JSON.');
-      return;
-    }
+    // Pedimos la respuesta como 'arraybuffer' para manejar datos comprimidos o binarios sin corrupción
+    const response = await axios.get(epgUrl, {
+      responseType: 'arraybuffer',
+      headers: {
+        'Accept-Encoding': 'gzip, deflate, br',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
+      },
+      timeout: 25000
+    });
 
-    // 2. Descargar la EPG XML
-    console.log(`Descargando EPG desde: ${meta.epgUrl}`);
-    const response = await axios.get(meta.epgUrl, { timeout: 15000 });
+    let buffer = response.data;
+    let xmlText = '';
 
-    // 3. Parsear XML
-    const parser = new xml2js.Parser();
-    const result = await parser.parseStringPromise(response.data);
-
-    const ahora = new Date();
-    let programaActual = "Sin información disponible";
-
-    // 4. Buscar la programación del canal
-    const programas = result.tv.programme.filter(p => p.$.channel === meta.tvgId);
-
-    for (const prog of programas) {
-      const strStart = prog.$.start;
-      const strStop = prog.$.stop;
-
-      // Convertir fechas XMLTV (YYYYMMDDHHMMSS +HHMM) a Date UTC
-      const inicio = parsearFechaXMLTV(strStart);
-      const fin = parsearFechaXMLTV(strStop);
-
-      if (ahora >= inicio && ahora < fin) {
-        programaActual = prog.title[0]._ || prog.title[0];
-        if (typeof programaActual === 'object') programaActual = programaActual._ || '';
-        break;
+    // Verificamos si el buffer inicia con los bytes mágicos de GZIP (0x1f 0x8b)
+    if (buffer.length > 2 && buffer[0] === 0x1f && buffer[1] === 0x8b) {
+      buffer = zlib.gunzipSync(buffer);
+    } else {
+      // Intenta descomprimir en caso de compresión zlib genérica
+      try {
+        buffer = zlib.inflateSync(buffer);
+      } catch (e) {
+        // Si no está comprimido, se deja como está
       }
     }
 
-    console.log(`Programa actual detectado: ${programaActual}`);
+    xmlText = buffer.toString('utf8');
 
-    // 5. Actualizar los campos del JSON
-    meta.currentProgram = programaActual;
+    // Parsear el XML resultante
+    const parser = new xml2js.Parser();
+    const result = await parser.parseStringPromise(xmlText);
     
-    // Guardamos la descripción base o actualizamos solo el encabezado
-    const descripcionLimpia = meta.description.replace(/^🔴 EN VIVO AHORA: .*\n\n/, '');
-    meta.description = `🔴 EN VIVO AHORA: ${programaActual}\n\n${descripcionLimpia}`;
-
-    // 6. Guardar cambios en el archivo .json
-    fs.writeFileSync(RUTA_JSON, JSON.stringify(json, null, 2), 'utf8');
-    console.log('Archivo JSON actualizado correctamente.');
-
+    // Guardar en caché
+    epgCache[epgUrl] = result;
+    return result;
   } catch (error) {
-    console.error('Error procesando la EPG:', error.message);
-    process.exit(1);
+    console.error(`Error al descargar o parsear EPG (${epgUrl}):`, error.message);
+    return null;
   }
 }
 
 function parsearFechaXMLTV(str) {
+  if (!str || str.length < 12) return null;
   const y = parseInt(str.substring(0, 4), 10);
   const m = parseInt(str.substring(4, 6), 10) - 1;
   const d = parseInt(str.substring(6, 8), 10);
@@ -74,4 +67,67 @@ function parsearFechaXMLTV(str) {
   return new Date(Date.UTC(y, m, d, h, min));
 }
 
-actualizarJSON();
+function buscarProgramaActual(xmlResult, tvgId) {
+  if (!xmlResult || !xmlResult.tv || !xmlResult.tv.programme) {
+    return "Sin guía disponible";
+  }
+
+  const ahora = new Date();
+  const programas = xmlResult.tv.programme.filter(p => p.$&& p.$.channel === tvgId);
+
+  for (const prog of programas) {
+    const inicio = parsearFechaXMLTV(prog.$.start);
+    const fin = parsearFechaXMLTV(prog.$.stop);
+
+    if (inicio && fin && ahora >= inicio && ahora < fin) {
+      let titulo = prog.title ? prog.title[0] : "Programa sin título";
+      if (typeof titulo === 'object') {
+        titulo = titulo._ || titulo;
+      }
+      return titulo;
+    }
+  }
+
+  return "Sin información de programa";
+}
+
+async function actualizarTodosLosCanales() {
+  try {
+    const dataRaw = fs.readFileSync(RUTA_JSON, 'utf8');
+    const json = JSON.parse(dataRaw);
+
+    const listaCanales = Array.isArray(json) ? json : (json.metas || json.channels || []);
+
+    if (listaCanales.length === 0) {
+      console.log("No se encontraron canales para procesar.");
+      return;
+    }
+
+    console.log(`Procesando ${listaCanales.length} canales...`);
+
+    for (const meta of listaCanales) {
+      if (!meta.epgUrl || !meta.tvgId) {
+        console.log(`Canal "${meta.name || meta.id}" omitido (falta epgUrl o tvgId).`);
+        continue;
+      }
+
+      const xmlData = await descargarYParsearEPG(meta.epgUrl);
+      const programaActual = buscarProgramaActual(xmlData, meta.tvgId);
+      console.log(`[${meta.name}] -> Programa actual: ${programaActual}`);
+
+      meta.currentProgram = programaActual;
+
+      const descripcionLimpia = (meta.description || '').replace(/^🔴 EN VIVO AHORA: .*\n\n/, '');
+      meta.description = `🔴 EN VIVO AHORA: ${programaActual}\n\n${descripcionLimpia}`;
+    }
+
+    fs.writeFileSync(RUTA_JSON, JSON.stringify(json, null, 2), 'utf8');
+    console.log('✅ Archivo JSON actualizado correctamente.');
+
+  } catch (error) {
+    console.error('Error durante la actualización:', error.message);
+    process.exit(1);
+  }
+}
+
+actualizarTodosLosCanales();
