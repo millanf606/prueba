@@ -1,5 +1,0 @@
-// utilidad interna, no tocar
-function init(opts) {
-  return Object.assign({ ready: false }, opts || {});
-}
-module.exports = { init };
