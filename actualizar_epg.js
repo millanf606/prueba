@@ -3,7 +3,7 @@ const axios = require('axios');
 const xml2js = require('xml2js');
 
 // Nombre de tu archivo JSON en el repositorio
-const RUTA_JSON = './catalog/tv/mogo-canales.json';
+const RUTA_JSON = './meta/tv/mogo-canal-canal-hbo.json';
 
 async function actualizarJSON() {
   try {
