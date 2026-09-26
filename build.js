@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const Jimp = require('jimp');
 
-const ADDON_LOGO = 'https://archive.org/download/liddoy_20260714/ppped1d0s/logo.png';
+const ADDON_LOGO = 'https://raw.githubusercontent.com/millanf606/prueba/refs/heads/main/mogologo.png';
 const OUT_DIR = __dirname;
 
 const CANVAS_W = 800;
@@ -395,19 +395,19 @@ async function main() {
   }
 
   const manifest = {
-    id: 'community.addonlatam.canales',
+    id: 'community.mogo.canales',
     version: '1.0.0',
     name: 'Addon Latam - Canales',
-    description: 'Complemento de Addon Latam para ver canales en vivo',
+    description: 'Complemento para ver canales en vivo',
     logo: ADDON_LOGO,
     resources: ['catalog', 'meta', 'stream'],
     types: ['tv'],
-    idPrefixes: ['addonlatam-canal-'],
+    idPrefixes: ['mogo-canal-'],
     catalogs: [
       {
         type: 'tv',
-        id: 'addonlatam-canales',
-        name: 'MoGo - Canales'
+        id: 'mogo-canales',
+        name: 'MoGo - Canales en vivo'
       }
     ],
     behaviorHints: {
