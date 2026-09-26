@@ -11,10 +11,10 @@
       "genres": [
         "Premiun"
       ],
-      "description": "🔴 EN VIVO AHORA: Nada entre los dos\n\nCanal HBO",
+      "description": "🔴 EN VIVO AHORA: Blue Beetle\n\nCanal HBO",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "HBOLWHD.mx (m3u4u)",
-      "currentProgram": "Nada entre los dos"
+      "currentProgram": "Blue Beetle"
     },
     {
       "id": "mogo-canal-canal-star",
@@ -27,10 +27,10 @@
       "genres": [
         "General"
       ],
-      "description": "🔴 EN VIVO AHORA: La boda de Rosa\n\nCanal Star Channel",
+      "description": "🔴 EN VIVO AHORA: 4x4\n\nCanal Star Channel",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "STRANHD.ar (m3u4u)",
-      "currentProgram": "La boda de Rosa"
+      "currentProgram": "4x4"
     }
   ]
 }
