@@ -8,10 +8,13 @@
       "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hbo_m.png",
       "background": "https://raw.githubusercontent.com/Droydr13/Addon-Latam-TV/main/fondo/fondo-canales.png?v=90264fa6",
       "posterShape": "poster",
-      "genres": ["Premiun"],
-      "description": "Canal HBO",
+      "genres": [
+        "Premiun"
+      ],
+      "description": "🔴 EN VIVO AHORA: El justiciero\n\nCanal HBO",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-      "tvgId": "HBOLWHD.mx (m3u4u)"
+      "tvgId": "HBOLWHD.mx (m3u4u)",
+      "currentProgram": "El justiciero"
     },
     {
       "id": "mogo-canal-canal-star",
@@ -21,10 +24,13 @@
       "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/star_m.png",
       "background": "https://raw.githubusercontent.com/Droydr13/Addon-Latam-TV/main/fondo/fondo-canales.png?v=90264fa6",
       "posterShape": "poster",
-      "genres": ["General"],
-      "description": "Canal Star Channel",
+      "genres": [
+        "General"
+      ],
+      "description": "🔴 EN VIVO AHORA: Sin información de programa\n\nCanal Star Channel",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-      "tvgId": "StarChannel.cl"
+      "tvgId": "StarChannel.cl",
+      "currentProgram": "Sin información de programa"
     }
   ]
 }
