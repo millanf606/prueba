@@ -2,7 +2,7 @@ name: Actualizar Programa EPG
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 jobs:
