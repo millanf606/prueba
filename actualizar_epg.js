@@ -17,7 +17,6 @@ async function descargarYParsearEPG(epgUrl) {
   try {
     console.log(`Descargando EPG desde: ${epgUrl}`);
 
-    // Pedimos la respuesta como 'arraybuffer' para manejar datos comprimidos o binarios sin corrupción
     const response = await axios.get(epgUrl, {
       responseType: 'arraybuffer',
       headers: {
@@ -30,25 +29,21 @@ async function descargarYParsearEPG(epgUrl) {
     let buffer = response.data;
     let xmlText = '';
 
-    // Verificamos si el buffer inicia con los bytes mágicos de GZIP (0x1f 0x8b)
     if (buffer.length > 2 && buffer[0] === 0x1f && buffer[1] === 0x8b) {
       buffer = zlib.gunzipSync(buffer);
     } else {
-      // Intenta descomprimir en caso de compresión zlib genérica
       try {
         buffer = zlib.inflateSync(buffer);
       } catch (e) {
-        // Si no está comprimido, se deja como está
+        // No está comprimido
       }
     }
 
     xmlText = buffer.toString('utf8');
 
-    // Parsear el XML resultante
     const parser = new xml2js.Parser();
     const result = await parser.parseStringPromise(xmlText);
     
-    // Guardar en caché
     epgCache[epgUrl] = result;
     return result;
   } catch (error) {
@@ -67,9 +62,10 @@ function parsearFechaXMLTV(str) {
   return new Date(Date.UTC(y, m, d, h, min));
 }
 
+// Ahora devuelve un objeto con título y descripción
 function buscarProgramaActual(xmlResult, tvgId) {
   if (!xmlResult || !xmlResult.tv || !xmlResult.tv.programme) {
-    return "Sin guía disponible";
+    return { titulo: "Sin guía disponible", descripcion: "" };
   }
 
   const ahora = new Date();
@@ -80,15 +76,23 @@ function buscarProgramaActual(xmlResult, tvgId) {
     const fin = parsearFechaXMLTV(prog.$.stop);
 
     if (inicio && fin && ahora >= inicio && ahora < fin) {
+      // Extraer Título
       let titulo = prog.title ? prog.title[0] : "Programa sin título";
       if (typeof titulo === 'object') {
         titulo = titulo._ || titulo;
       }
-      return titulo;
+
+      // Extraer Descripción (<desc>)
+      let descripcion = "";
+      if (prog.desc && prog.desc[0]) {
+        descripcion = typeof prog.desc[0] === 'object' ? (prog.desc[0]._ || '') : prog.desc[0];
+      }
+
+      return { titulo, descripcion };
     }
   }
 
-  return "Sin información de programa";
+  return { titulo: "Sin información de programa", descripcion: "" };
 }
 
 async function actualizarTodosLosCanales() {
@@ -112,17 +116,34 @@ async function actualizarTodosLosCanales() {
       }
 
       const xmlData = await descargarYParsearEPG(meta.epgUrl);
-      const programaActual = buscarProgramaActual(xmlData, meta.tvgId);
-      console.log(`[${meta.name}] -> Programa actual: ${programaActual}`);
+      const programa = buscarProgramaActual(xmlData, meta.tvgId);
+      
+      console.log(`[${meta.name}] -> Programa: ${programa.titulo}`);
 
-      meta.currentProgram = programaActual;
+      // 1. Asignar los campos en el JSON
+      meta.currentProgram = programa.titulo;
+      meta.currentProgramDesc = programa.descripcion;
 
-      const descripcionLimpia = (meta.description || '').replace(/^EN VIVO AHORA: .*\n\n/, '');
-      meta.description = `EN VIVO AHORA: ${programaActual}\n\n${descripcionLimpia}`;
+      // 2. Formatear la descripción visible en Stremio
+      const infoPrograma = programa.descripcion 
+        ? `🔴 EN VIVO AHORA: ${programa.titulo}\n📝 ${programa.descripcion}`
+        : `🔴 EN VIVO AHORA: ${programa.titulo}`;
+
+      // Mantener la descripción base del canal si existe
+      const canalDescripcionBase = meta.descriptionBase || meta.name || "Canal en vivo";
+      
+      // Guardar la base si no existe previa para no perder la descripción original del canal
+      if (!meta.descriptionBase) {
+        meta.descriptionBase = meta.description 
+          ? meta.description.replace(/^🔴 EN VIVO AHORA:[\s\S]*?\n\n/, '') 
+          : `Canal ${meta.name}`;
+      }
+
+      meta.description = `${infoPrograma}\n\n${meta.descriptionBase}`;
     }
 
     fs.writeFileSync(RUTA_JSON, JSON.stringify(json, null, 2), 'utf8');
-    console.log('✅ Archivo JSON actualizado correctamente.');
+    console.log('✅ Archivo JSON actualizado correctamente con títulos y descripciones.');
 
   } catch (error) {
     console.error('Error durante la actualización:', error.message);
