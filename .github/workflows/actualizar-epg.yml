@@ -5,7 +5,6 @@ on:
     - cron: '*/15 * * * *'
   workflow_dispatch:
 
-# Permisos explícitos para que el bot pueda hacer push
 permissions:
   contents: write
 
@@ -14,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Descargar código del repositorio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
       - name: Configurar Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v4.2.0
         with:
-          node-version: '22' # <--- Cambiado de 20 a 22
+          node-version: '24'
 
       - name: Instalar dependencias
         run: npm install
