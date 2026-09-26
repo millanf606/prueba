@@ -57,7 +57,7 @@
     {
       "id": "mogo-canal-canal-warner-central",
       "type": "tv",
-      "name": "Warner Channel",
+      "name": "Warner Channel Central",
       "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/warner_stm.png",
       "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/warner-channel_m.png",
       "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
@@ -75,7 +75,7 @@
     {
       "id": "mogo-canal-canal-ae",
       "type": "tv",
-      "name": "Warner Channel",
+      "name": "A&E",
       "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/aemundo_stm.png",
       "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/a-e-mundo_m.png",
       "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
@@ -93,7 +93,7 @@
             {
       "id": "mogo-canal-canal-warner-sony",
       "type": "tv",
-      "name": "Warner Channel",
+      "name": "Sony",
       "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/sony_stm.png",
       "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/sony_m.png",
       "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
@@ -111,7 +111,7 @@
         {
       "id": "mogo-canal-canal-sony-central",
       "type": "tv",
-      "name": "Warner Channel",
+      "name": "Sony Channel",
       "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/sony_stm.png",
       "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/sony_m.png",
       "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
@@ -129,7 +129,7 @@
             {
       "id": "ogo-canal-canal-axn",
       "type": "tv",
-      "name": "Warner Channel",
+      "name": "AXM",
       "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/axn_stm.png",
       "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/axn_m.png",
       "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
@@ -147,7 +147,7 @@
         {
       "id": "mogo-canal-canal-amc",
       "type": "tv",
-      "name": "Warner Channel",
+      "name": "AMC",
       "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/amc_stm.png",
       "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/amc_m.png",
       "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
@@ -161,6 +161,24 @@
       "currentProgram": "",
       "currentProgramDesc": "",
       "descriptionBase": "Canal AMC"
+    },
+            {
+      "id": "ogo-canal-canal-fx",
+      "type": "tv",
+      "name": "FX",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/fx_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/fx_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "FXLCHD.co (m3u4u)",
+      "currentProgram": "",
+      "currentProgramDesc": "",
+      "descriptionBase": "Canal FX"
     }
   ]
 }
