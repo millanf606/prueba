@@ -12,19 +12,6 @@
       "description": "Canal HBO",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "HBOLWHD.mx (m3u4u)"
-    },
-    {
-      "id": "mogo-canal-canal-star",
-      "type": "tv",
-      "name": "Star Channel",
-      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/star.png",
-      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/star_m.png",
-      "background": "https://raw.githubusercontent.com/Droydr13/Addon-Latam-TV/main/fondo/fondo-canales.png?v=90264fa6",
-      "posterShape": "poster",
-      "genres": ["General"],
-      "description": "Canal Star Channel",
-      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-      "tvgId": "StarChannel.cl"
     }
   ]
 }
