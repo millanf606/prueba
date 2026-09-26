@@ -1,9 +1,9 @@
 {
   "id": "community.addonlatam.canales",
   "version": "1.0.0",
-  "name": "Addon Latam - Canales",
-  "description": "Complemento de Addon Latam para ver canales en vivo",
-  "logo": "https://archive.org/download/liddoy_20260714/ppped1d0s/logo.png",
+  "name": "MoGo",
+  "description": "Complemento de canales en vivo",
+  "logo": "https://raw.githubusercontent.com/millanf606/prueba/refs/heads/main/mogologo.png",
   "resources": [
     "catalog",
     "meta",
@@ -13,13 +13,13 @@
     "tv"
   ],
   "idPrefixes": [
-    "addonlatam-canal-"
+    "mogo-canal-"
   ],
   "catalogs": [
     {
       "type": "tv",
-      "id": "addonlatam-canales",
-      "name": "Addon Latam - Canales"
+      "id": "mogo-canales",
+      "name": "MoGo"
     }
   ],
   "behaviorHints": {
