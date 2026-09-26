@@ -1,18 +1,18 @@
 {
   "meta": {
-    "id": "mogo-canal-canal-hbo",
-    "type": "tv",
-    "name": "HBO",
-    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hbo-stm.png",
-    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hbo_m.png",
-    "background": "https://raw.githubusercontent.com/Droydr13/Addon-Latam-TV/main/fondo/fondo-canales.png",
-    "posterShape": "poster",
-    "genres": [
-      "Premiun"
-    ],
-    "description": "Canal HBO",
-    "currentProgram": "XXXXXXXXXXXXXXXX",
-    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-    "tvgId": "HBOLWHD.mx (m3u4u)"
+      "id": "mogo-canal-canal-hbo",
+      "type": "tv",
+      "name": "HBO",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hbo-stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hbo_m.png",
+      "background": "https://raw.githubusercontent.com/Droydr13/Addon-Latam-TV/main/fondo/fondo-canales.png?v=90264fa6",
+      "posterShape": "poster",
+      "genres": [
+        "Premiun"
+      ],
+      "description": "🔴 EN VIVO AHORA: El justiciero\n\nCanal HBO",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "HBOLWHD.mx (m3u4u)",
+      "currentProgram": "El justiciero"
   }
 }
