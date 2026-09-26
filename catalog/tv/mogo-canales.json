@@ -127,7 +127,7 @@
       "descriptionBase": "Canal Sony Central"
     },
     {
-      "id": "ogo-canal-canal-axn",
+      "id": "mogo-canal-canal-axn",
       "type": "tv",
       "name": "AXM",
       "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/axn_stm.png",
@@ -163,7 +163,7 @@
       "descriptionBase": "Canal AMC"
     },
     {
-      "id": "ogo-canal-canal-fx",
+      "id": "mogo-canal-canal-fx",
       "type": "tv",
       "name": "FX",
       "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/fx_stm.png",
