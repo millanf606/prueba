@@ -11,7 +11,7 @@
       "genres": [
         "Premiun"
       ],
-      "description": "🔴 EN VIVO AHORA: Jurado Nº2\n📝 Un jurado de un juicio por asesinato de alto perfil lucha con un serio dilema moral que podría influir en el veredicto.\n\nCanal HBO",
+      "description": "EN VIVO AHORA: Jurado Nº2\nUn jurado de un juicio por asesinato de alto perfil lucha con un serio dilema moral que podría influir en el veredicto.\n\nCanal HBO",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "HBOLWHD.mx (m3u4u)",
       "currentProgram": "Jurado Nº2",
@@ -29,11 +29,11 @@
       "genres": [
         "General"
       ],
-      "description": "🔴 EN VIVO AHORA: 4x4\n📝 Una camioneta 4x4 estacionada en la vereda de un barrio de Buenos Aires. Un joven entra a robar, queda encerrado y debe lidiar con alguien que, desde afuera, tiene el control del vehículo.\n\nCanal Star Channel",
+      "description": "EN VIVO AHORA: Al mejor postor\nUn excéntrico subastador de arte se obsesiona con una heredera.\n\nCanal Star Channel",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "STRANHD.ar (m3u4u)",
-      "currentProgram": "4x4",
-      "currentProgramDesc": "Una camioneta 4x4 estacionada en la vereda de un barrio de Buenos Aires. Un joven entra a robar, queda encerrado y debe lidiar con alguien que, desde afuera, tiene el control del vehículo.",
+      "currentProgram": "Al mejor postor",
+      "currentProgramDesc": "Un excéntrico subastador de arte se obsesiona con una heredera.",
       "descriptionBase": "Canal Star Channel"
     }
   ]
