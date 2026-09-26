@@ -117,8 +117,8 @@ async function actualizarTodosLosCanales() {
 
       meta.currentProgram = programaActual;
 
-      const descripcionLimpia = (meta.description || '').replace(/^🔴 EN VIVO AHORA: .*\n\n/, '');
-      meta.description = `🔴 EN VIVO AHORA: ${programaActual}\n\n${descripcionLimpia}`;
+      const descripcionLimpia = (meta.description || '').replace(/^EN VIVO AHORA: .*\n\n/, '');
+      meta.description = `EN VIVO AHORA: ${programaActual}\n\n${descripcionLimpia}`;
     }
 
     fs.writeFileSync(RUTA_JSON, JSON.stringify(json, null, 2), 'utf8');
