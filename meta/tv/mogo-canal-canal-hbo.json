@@ -5,7 +5,7 @@
       "name": "HBO",
       "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hbo-stm.png",
       "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hbo_m.png",
-      "background": "https://raw.githubusercontent.com/Droydr13/Addon-Latam-TV/main/fondo/fondo-canales.png?v=90264fa6",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": ["Premiun"]
   }
