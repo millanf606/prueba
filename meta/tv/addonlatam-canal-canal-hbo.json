@@ -3,10 +3,10 @@
     "id": "addonlatam-canal-canal-hbo",
     "type": "tv",
     "name": "HBO",
-    "poster": "https://raw.githubusercontent.com/millanf606/prueba/refs/heads/main/logos/canal-hbo.png?v=90264fa6",
-    "logo": "https://raw.githubusercontent.com/millanf606/prueba/refs/heads/main/logos/canal-hbo.png?v=90264fa6",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hbo-stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hbo_m.png",
     "background": "https://raw.githubusercontent.com/Droydr13/Addon-Latam-TV/main/fondo/fondo-canales.png?v=90264fa6",
-    "posterShape": "landscape",
+    "posterShape": "poster",
     "genres": [
       "Premiun"
     ],
