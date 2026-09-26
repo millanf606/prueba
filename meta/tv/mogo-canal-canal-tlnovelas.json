@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "mogo-canal-canal-tlnovelas",
+    "type": "tv",
+    "name": "Tlnovelas",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/tlnovelas_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/tlnovelas_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Entretenimiento"
+    ],
+    "description": "EN VIVO AHORA: Vivo por Elena\nUn juez contrata a una joven humilde para que trabaje como tutora de su hijo rebelde y ella se gana el afecto de ambos.\n\nCanal Tlnovelas"
+  }
+}
