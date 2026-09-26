@@ -1,8 +1,6 @@
 {
-  "name": "mogo-canales-build",
-  "private": true,
+  "name": "epg-updater",
   "version": "1.0.0",
-  "description": "Script MoGo - Canales",
   "main": "actualizar_epg.js",
   "dependencies": {
     "jimp": "^0.22.12"
