@@ -163,7 +163,7 @@
       "descriptionBase": "Canal FX"
     },
     {
-      "id": "mogo-canal-universal-tv",
+      "id": "mogo-canal-canal-universal-tv",
       "type": "tv",
       "name": "Universal TV",
       "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/uni_stm.png",
@@ -181,7 +181,7 @@
       "descriptionBase": "Canal Universal TV"
     },
     {
-      "id": "mogo-canal-pasiones",
+      "id": "mogo-canal-canal-pasiones",
       "type": "tv",
       "name": "Pasiones",
       "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/pasi_stm.png",
@@ -199,7 +199,7 @@
       "descriptionBase": "Canal Pasiones"
     },
     {
-  "id": "mogo-canal-las-estrellas",
+  "id": "mogo-canal-canal-las-estrellas",
   "type": "tv",
   "name": "Las Estrellas",
   "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/las-estrellas_m_stm.png",
