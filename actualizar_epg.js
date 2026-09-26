@@ -4,7 +4,7 @@ const xml2js = require('xml2js');
 const zlib = require('zlib');
 
 // Ruta de tu archivo JSON en el repositorio
-const RUTA_JSON = 'meta/tv/canales.json';
+const RUTA_JSON = './meta/tv/canales.json';
 
 // Caché en memoria para evitar descargar la misma EPG varias veces
 const epgCache = {};
