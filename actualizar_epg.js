@@ -126,8 +126,8 @@ async function actualizarTodosLosCanales() {
 
       // 2. Formatear la descripción visible en Stremio
       const infoPrograma = programa.descripcion 
-        ? `🔴 EN VIVO AHORA: ${programa.titulo}\n📝 ${programa.descripcion}`
-        : `🔴 EN VIVO AHORA: ${programa.titulo}`;
+        ? `EN VIVO AHORA: ${programa.titulo}\n${programa.descripcion}`
+        : `EN VIVO AHORA: ${programa.titulo}`;
 
       // Mantener la descripción base del canal si existe
       const canalDescripcionBase = meta.descriptionBase || meta.name || "Canal en vivo";
@@ -135,7 +135,7 @@ async function actualizarTodosLosCanales() {
       // Guardar la base si no existe previa para no perder la descripción original del canal
       if (!meta.descriptionBase) {
         meta.descriptionBase = meta.description 
-          ? meta.description.replace(/^🔴 EN VIVO AHORA:[\s\S]*?\n\n/, '') 
+          ? meta.description.replace(/^EN VIVO AHORA:[\s\S]*?\n\n/, '') 
           : `Canal ${meta.name}`;
       }
 
